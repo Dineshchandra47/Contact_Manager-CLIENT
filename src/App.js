@@ -3,7 +3,7 @@ import ContactPage from './components/contactpage/ContactPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Signup from './components/signup/Signup';
 import Login from "../src/components/Login/Login"
-import Protected_route from './components/Protected_routes/Protected_route';
+import ProtectedRoute from './components/Protected_routes/ProtectedRoute';
 import ContactProvider from './components/Context/ContactProvider';
 import SearchProvider from './components/Context/SearchProvider';
 import ImportProvider from './components/Context/ImportProvider';
@@ -18,7 +18,7 @@ function App() {
               <Routes>
                 <Route path='/signup' element={<Signup />} />
                 <Route path='/' element={<Login />} />
-                <Route  element={<Protected_route />} >
+                <Route  element={<ProtectedRoute />} >
                   <Route path='/contacts' element={
 
                     <ContactPage />
