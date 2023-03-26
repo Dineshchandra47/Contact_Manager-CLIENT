@@ -1,199 +1,211 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 /* .sign {
     width: 100vh;
     height: 100vh;
 } */
 
+*{
+    font-size: 1rem;
+}
+
 .login {
-    position: absolute;
-    width: 84%;
-    height: 75%;
-    left: 8%;
-    top: 12%;
-    /* right: 164px;
+  position: absolute;
+  width: 84%;
+  height: 75%;
+  left: 8%;
+  top: 12%;
+  /* right: 164px;
     bottom: 158px; */
 
-    background: #CEF3FF;
-    opacity: 0.6;
-    box-shadow: 0px 2px 5px #B2DFFF;
-    border-radius: 7px;
-
-
+  background: #cef3ff;
+  opacity: 0.6;
+  box-shadow: 0px 2px 5px #b2dfff;
+  border-radius: 7px;
 }
 
 .login-container {
-    position: absolute;
-    width: 25%;
-    height: 40%;
-    left: 38%;
-    top: 37%;
+  position: absolute;
+  width: 25%;
+  height: 40%;
+  left: 36%;
+  top: 37%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-self: center; */
-    /* align-content: center; */
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center; */
+  /* align-content: center; */
+  align-items: center;
 }
 
 .display {
-
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 .login-fields {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #login-email {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-self: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center;
     align-content: center; */
-    align-items: center;
-    width: 300px;
+  align-items: center;
+  width: 300px;
 }
 
 #login-password {
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-self: center;
+  font-family: "Open Sans";
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center;
     align-content: center; */
-    align-items: center;
-    width: 300px;
+  align-items: center;
+  width: 300px;
 }
 
 #login-confirmpassword {
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-self: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center;
     align-content: center; */
-    align-items: center;
-    width: 300px;
+  align-items: center;
+  width: 300px;
 }
 
 .btn {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-size: x-small;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: x-small;
 
-    width: 300px;
+  width: 300px;
+}
+
+#test {
+  height: 35px;
+  width: 300px;
+
+  background-color: white;
+  color: #485eaf;
+  margin-bottom: 10px ;
+}
+
+#test:hover,
+#test:active {
+  height: 35px;
+  width: 300px;
+  background-color: #485eaf;
+  color: white;
+}
+
+#signinbtn:hover,
+#signinbtn:active {
+  height: 35px;
+  width: 300px;
+  background-color: #485eaf;
+  color: white;
 }
 
 #signupbtn {
-    height: 35px;
-    width: 300px;
-    background-color: white;
-    color: #485eaf;
+  height: 35px;
+  width: 300px;
+  background-color: white;
+  color: #485eaf;
 }
 
 #signupbtn:hover,
 #signupbtn:active {
-    height: 35px;
-    width: 300px;
-    background-color: #485eaf;
-    color: white;
+  height: 35px;
+  width: 300px;
+  background-color: #485eaf;
+  color: white;
 }
 
-
 #signinbtn {
-    height: 35px;
-
-    width: 300px;
-    background-color: #485eaf;
+  height: 35px;
+  width: 300px;
+  color: #485eaf;
+  background-color: #fff;
 }
 
 #signinbtn:hover {
-    height: 35px;
-
-    width: 300px;
-    background-color: #16245c;
+  height: 35px;
+  width: 300px;
+  background-color: #16245c;
 }
 
 .logo {
-    width: 70px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    z-index: 99;
-    position: absolute;
-    top: 3%;
-    left: 47%;
-    right: auto;
-    /* background-color: #CEF3FF; */
+  width: 70px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  z-index: 99;
+  position: absolute;
+  top: 3%;
+  left: 47%;
+  right: auto;
+  /* background-color: #CEF3FF; */
 }
 
 .topleft {
-    width: 170px;
-    position: absolute;
-    left: 3px;
-    top: 3px;
-
+  width: 170px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
 }
 
 .bottomright {
-    width: 160px;
-    position: absolute;
-    right: 3px;
-    bottom: 3px;
-    /* transform: rotate(-30deg); */
-
+  width: 160px;
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  /* transform: rotate(-30deg); */
 }
 
 .topright {
-    width: 120px;
-    position: absolute;
-    right: 11.5%;
-    top: 18%;
-    /* transform: rotate(-30deg); */
-    z-index: 99;
-
+  width: 120px;
+  position: absolute;
+  right: 11.5%;
+  top: 18%;
+  /* transform: rotate(-30deg); */
+  z-index: 99;
 }
 
 .bottomleft {
-    width: 120px;
-    position: absolute;
-    left: 11.5%;
-    bottom: 18%;
-    /* transform: rotate(-30deg); */
-    z-index: 99;
-
+  width: 120px;
+  position: absolute;
+  left: 11.5%;
+  bottom: 18%;
+  /* transform: rotate(-30deg); */
+  z-index: 99;
 }
-.actions{
-  
-margin: 3% 0% 3% 0%;
-       
+.actions {
+  /* margin: 3% 0% 3% 0%; */
 }
-.input{
-   
-margin-bottom: 2%
-      
+.input {
+  margin-bottom: 10px;
+  margin-left: 0px;
 }
