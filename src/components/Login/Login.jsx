@@ -114,6 +114,7 @@ function Login() {
                 type="text"
                 name="login-email"
                 id="login-email"
+                autoComplete="off"
                 className="login-email form-control"
                 value={Email}
                 placeholder="User ID"
@@ -128,6 +129,7 @@ function Login() {
                 type="password"
                 name="login-password"
                 id="login-password"
+                autoComplete="off"
                 className="login-password form-control"
                 value={password}
                 placeholder="Password"
